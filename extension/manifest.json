@@ -1,0 +1,28 @@
+{
+   "manifest_version": 2,
+   "version": "0.0.1",
+   "name": "BnSTree Ru Навигатор",
+   "short_name": "BnsTree Ru",
+   "description": "Быстрый доступ к навыкам вашего класса.",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "BnSTree Ru"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+T",
+            "mac": "Alt+T"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "offline_enabled": true,
+   "permissions": ["unlimitedStorage"],
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
